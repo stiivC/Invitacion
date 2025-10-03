@@ -134,7 +134,7 @@ body {
     font-family: 'cursive', sans-serif;
     position: relative;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.278);
-    background-image: url("asset/fondo.jpg");
+    background-image: url("fondo.jpg");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -251,7 +251,7 @@ body {
     animation: slideInImages 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
     opacity: 0;
     background-color: transparent;
-    background-image: url("asset/fondo2.png");
+    background-image: url("fondo2.png");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
