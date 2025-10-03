@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Cumpleaños - 2 Años</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <!-- Pantalla de carga -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-content">
+            <div class="invitation-icon">📨</div>
+            <h1>¡Invitación Especial!</h1>
+            <p class="loading-subtitle">Tienes una invitación muy especial esperándote</p>
+            <div class="loading-animation">
+                <div class="loading-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <button id="openButton" class="open-button">📖 ¡Ver Invitación! 📖</button>
+        </div>
+    </div>
+
+    <!-- Contenido principal (oculto inicialmente) -->
+    <div id="mainContent" class="main-content" style="display: none;">
+    <div class="container">
+            <div class="mask">
+            
+<!-- Guardar como dos-mask.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700" width="500" height="700" role="img" aria-label="Máscara número 2">
+    <defs>
+      <!-- Filtro de sombra para el borde del número 2 -->
+      <filter id="sombraBox" x="-50%" y="-50%" width="200%" height="200%">
+        <feDropShadow dx="4" dy="4" stdDeviation="3" flood-color="rgba(0,0,0,0.5)"/>
+        <feDropShadow dx="8" dy="8" stdDeviation="2" flood-color="rgba(0,0,0,0.3)"/>
+      </filter>
+      
+      <!-- La máscara usa el texto: el área blanca será visible -->
+      <mask id="mask" maskUnits="userSpaceOnUse" x="0" y="0" width="500" height="700">
+        <!-- Fondo negro (oculto) -->
+        <rect x="0" y="0" width="500" height="700" fill="black"/>
+        <!-- Texto en blanco = lo que se verá -->
+        <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle"
+              font-family="Impact, Arial Black, sans-serif"
+              font-weight="50"
+              font-size="540"
+              fill="white">
+          2
+        </text>
+      </mask>
+    </defs>
+  
+    <!-- Imágenes posicionadas individualmente con máscara -->
+    
+    <image href="/asset/0mes.jpg" x="280" y="490" width="100" height="60" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+    <image href="/asset/1mes.jpg" x="120" y="490" width="120" height="80" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+    <image href="/asset/0.jpg" x="220" y="480" width="80" height="120" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+    <image href="/asset/3.jpg" x="140" y="400" width="80" height="120" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+    <image href="/asset/4.jpg" x="180" y="350" width="90" height="130" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+    <image href="/asset/5.jpg" x="220" y="400" width="70" height="100" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+    <image href="/asset/6.jpg" x="260" y="340" width="80" height="90" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+    <image href="/asset/7.jpg" x="320" y="280" width="80" height="90" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+    <image href="/asset/8.jpg" x="230" y="250" width="90" height="110" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+    <image href="/asset/9.jpg" x="300" y="210" width="75" height="90" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+    <image href="/asset/10.jpg" x="285" y="140" width="80" height="90" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+    <image href="/asset/12.jpg" x="170" y="115" width="90" height="120" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+    <image href="/asset/11.jpg" x="230" y="120" width="80" height="90" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+    <image href="/asset/13.jpg" x="110" y="160" width="90" height="120" mask="url(#mask)" 
+           pointer-events="none" style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;"/>
+  
+    <!-- Borde alrededor del número -->
+    <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle"
+          font-family="Impact, Arial Black, sans-serif"
+          font-weight="50"
+          font-size="545"
+          fill="transparent"
+          filter="url(#sombraBox)"
+          mask="url(#mask)"
+          class="sombraBox">
+      2
+    </text>
+  </svg>
+  
+
+        </div>
+        <div class="info">
+            <div class="info-content">
+                <h2 class="invitation-title">¡Estás Invitado!</h2>
+                <h3 class="event-name">Cumpleaños de Nicolas Alexander Cepeda Fajardo</h3>
+                <div class="invitation-message">
+                    <p>Ven a celebrar con nosotros 🎂 porque este viernes 3 de octubre<br>
+                    nos reuniremos en el jardín SAMI 🌿 para festejar los 2 añitos 🎈🎈</p>
+                    <p class="highlight-message">💛 ¡No faltes, te esperamos con mucha alegría! 💛</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Globos flotantes -->
+    <div class="balloon" style="left: 20%; background: red; animation-delay: 0s;"></div>
+    <div class="balloon" style="left: 40%; background: blue; animation-delay: 2s;"></div>
+    <div class="balloon" style="left: 60%; background: green; animation-delay: 4s;"></div>
+    <div class="balloon" style="left: 80%; background: yellow; animation-delay: 6s;"></div>
+    <div class="balloon" style="left: 10%; background: purple; animation-delay: 1s;"></div>
+    <div class="balloon" style="left: 30%; background: orange; animation-delay: 3s;"></div>
+    <div class="balloon" style="left: 50%; background: pink; animation-delay: 5s;"></div>
+    <div class="balloon" style="left: 70%; background: cyan; animation-delay: 7s;"></div>
+    <div class="balloon" style="left: 90%; background: lime; animation-delay: 8s;"></div>
+    
+    <!-- Audio de fondo -->
+    <audio id="backgroundMusic" loop>
+        <source src="son.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    
+    <!-- Controles de audio -->
+    <div class="audio-controls">
+        <button id="playPauseBtn" class="audio-btn">▶️</button>
+        <div class="volume-control">
+            <span class="volume-icon">🔊</span>
+            <input type="range" id="volumeSlider" min="0" max="100" value="50" class="volume-slider">
+        </div>
+    </div>
+    
+    <!-- Confeti -->
+    <div id="confetti-container"></div>
+    
+        </div>
+    </div>
+    
+  <script src="/JS/script.js"></script>
+</body>
+</html>
